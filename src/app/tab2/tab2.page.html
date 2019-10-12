@@ -1,13 +1,9 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Add, Edit and Delete</ion-title>
   </ion-toolbar>
 </ion-header>
 
-
-<ion-content>
-
-  <ion-button expand="block" (click)="presentActionSheet()">Action Button</ion-button>
+<ion-content justify-content-center align-items-center style="height: 100%;">
+  <ion-button size="full" [routerLink]="['/new-item']">Click to add content</ion-button>
 </ion-content>

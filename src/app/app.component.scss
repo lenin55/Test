@@ -1,0 +1,20 @@
+
+  /* Set variables for all modes */
+:host {
+    /* Set the background of the entire app */
+    
+    --ion-tab-bar-background: #fff;
+  
+    /* Set the font family of the entire app */
+    --ion-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", sans-serif;
+  }
+  
+  /* Set text color of the entire app for iOS only */
+  .ios {
+    --ion-text-color: #000;
+  }
+  
+  /* Set text color of the entire app for Material Design only */
+  .md {
+    --ion-text-color: #222;
+  }

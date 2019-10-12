@@ -1,4 +1,24 @@
+:host{
+  --ion-background-color: #f1f3f4;
+}
 .welcome-card img {
   max-height: 35vh;
   overflow: hidden;
+}
+
+.home-page{
+  ion-card{
+    margin: 3px;
+    // height: 100%;
+    background: #fff;
+
+    p{
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      white-space: normal;
+      overflow: hidden;
+      max-height: 44px;
+    }
+  }
 }
