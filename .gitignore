@@ -18,7 +18,7 @@ dist/
 dist-transpiled/
 node_modules/
 tmp/
-temp/
+temp/ 
 core/theme-builder/
 core/test-components/
 core/css/
